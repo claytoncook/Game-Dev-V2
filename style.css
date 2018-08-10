@@ -61,4 +61,19 @@ div.tile {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    border: black solid 1px;
+}
+
+div#player {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    background-color: blue;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+div.entity {
+    border: rgb(255, 0, 0) solid 1px;
 }
