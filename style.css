@@ -3,39 +3,39 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: rgb(71, 71, 71);
-    text-align: center;
 }
 
 div#stats {
     z-index: 0;
     position: absolute;
-    top: 2%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
     width: 100%;
+    text-align: center;
 }
 
 div#bars {
+    margin-top: 20px;
     height: 30px;
     width: 100%;
-    text-align: center;
 }
 
 div.bar {
     height: 100%;
     width: 500px;
     display: inline-block;
-    border: white solid 2px;
-    margin-right: 10px;
-    margin-left: 10px;
+    border: rgba(255, 255, 255, 0.5) solid 2px;
 }
 
 div#health {
-    background-color: rgb(255, 87, 87);
+    background-color: rgba(255, 87, 87, 0.5);
     height: 100%;
     width: 100%;
 }
 
 div#mana {
-    background-color: rgb(0, 102, 255);
+    background-color: rgba(0, 102, 255, 0.5);
     height: 100%;
     width: 100%;
 }
@@ -43,9 +43,22 @@ div#mana {
 div#game {
     z-index: -1;
     position: absolute;
-    top: 0px;
-    left: 0px;
     height: 500px;
     width: 500px;
     background-color: rgb(12, 12, 12);
+}
+
+div#world {
+    height: 100%;
+    width: 100%;
+}
+
+div#tileset {
+    margin: auto;
+}
+
+div.tile {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
 }
