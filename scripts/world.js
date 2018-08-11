@@ -11,6 +11,7 @@ let world = {
         }
     },
     render: () => {
+        world.generate();
         for (let y = 0; y < data.game.world.tileset[0].length; y++) {
             for (let x = 0; x < data.game.world.tileset[y].length; x++) {
                 let tile = function () {

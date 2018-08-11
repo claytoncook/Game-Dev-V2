@@ -14,16 +14,10 @@ let data = {
                 defense: 1,
                 money: 0,
                 inventory: [],
-                x: 400,
-                y: 400,
+                x: 80,
+                y: 80,
                 velocityX: scale,
                 velocityY: scale
-            },
-            enemies: {
-
-            },
-            npcs: {
-
             }
         }
     }
